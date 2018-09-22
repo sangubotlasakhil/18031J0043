@@ -8,9 +8,9 @@ public class Solution {
 	
 	public static void main(String[] args) {
 		Scanner s=new Scanner(System.in);      
-        long  base = s.nextInt();
-        long  exponent = s.nextInt();
-      long  result=(long)Math.pow(base,exponent);
+        long int base = s.nextInt();
+        long int exponent = s.nextInt();
+      long  int result=(int)Math.pow(base,exponent);
         System.out.println(result);
 	}
 	/*
